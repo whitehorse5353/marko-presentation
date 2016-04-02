@@ -1,0 +1,16 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <h1>
+            ${data.name}
+    </h1>
+
+<async-fragment data-provider=data.composed var='promise' client-reorder='true'>
+ <ul for(item in promise.items)>
+    <li>${item}</li>
+ </ul>
+</async-fragment>
+</body>
+</html>
