@@ -1,0 +1,25 @@
+{
+  "name": "marko-presentation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitehorse5353/marko-presentation.git"
+  },
+  "author": "IEA UI TEAM <ieauiteam@sapient.com> (https://vox.sapient.com/groups/integrated_experience_architecture)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/whitehorse5353/marko-presentation/issues"
+  },
+  "homepage": "https://github.com/whitehorse5353/marko-presentation#readme",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "marko": "^3.0.2"
+  }
+}
